@@ -1730,3 +1730,8 @@ input, select, textarea {
 	opacity: .75;
 	transition: opacity .1s;
 }
+
+.contact-line {
+	font-size: 1rem;
+	font-weight: bold;
+}
