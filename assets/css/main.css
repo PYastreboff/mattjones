@@ -604,6 +604,9 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		display: flex;
+		align-self: center;
+		justify-self: center;
 	}
 
 		.icon:before {
@@ -637,6 +640,9 @@ input, select, textarea {
 
 		#icon {
 			padding: .8rem .5rem 0rem .5rem;
+			display: flex;
+			align-self: center;
+			justify-self: center;
 		}
 
 /* Image */
