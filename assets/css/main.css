@@ -1344,8 +1344,8 @@ input, select, textarea {
 		#header .logo {
 			width: 8rem;
 			height: 8rem;
-			min-width: 8rem;
-			min-height: 8rem;
+			max-width: 8rem;
+			max-height: 8rem;
 			line-height: 8rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
@@ -1752,4 +1752,5 @@ input, select, textarea {
 img#icon {
 	width: auto;
 	height: auto;
+	max-width: fit-content;
 }
