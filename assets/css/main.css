@@ -1748,3 +1748,8 @@ input, select, textarea {
 	font-size: 1rem;
 	font-weight: bold;
 }
+
+img#icon {
+	width: auto;
+	height: auto;
+}
