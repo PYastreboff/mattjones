@@ -607,8 +607,7 @@ input, select, textarea {
 		display: flex;
 		align-self: center;
 		justify-self: center;
-		height: fit-content;
-		width: fit-content;
+		
 	}
 
 		.icon:before {
@@ -641,10 +640,12 @@ input, select, textarea {
 		}
 
 		#icon {
-			padding: .8rem .5rem 0rem .5rem;
+			padding: .4rem .5rem 0rem .5rem;
 			display: flex;
 			align-self: center;
 			justify-self: center;
+			height:	auto;
+			width: 7.8rem;
 		}
 
 /* Image */
@@ -1749,8 +1750,10 @@ input, select, textarea {
 	font-weight: bold;
 }
 
+/*
 img#icon {
 	width: auto;
 	height: auto;
 	max-width: fit-content;
 }
+*/
